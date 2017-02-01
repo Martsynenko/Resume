@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("font/Montserrat.ttf");
+}
+
+@font-face{
+    font-family: "Roboto Slab";
+    src: url("font/RobotoSlab.ttf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+#wrapp{
+    margin: 40px auto;
+    width: 940px;
+    height: 500px;
+    background-color: #F3F3F3;
+}
