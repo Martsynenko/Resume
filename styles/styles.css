@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6, p{
 #wrapp{
     margin: 40px auto;
     width: 940px;
-    height: 500px;
+    height: 700px;
     background-color: #F3F3F3;
 }
 
@@ -51,8 +51,6 @@ header{
 }
 
 .avatar img{
-    background-color: #000;
-    opacity: 0.5;
     width: 180px;
     height: 180px;
     -webkit-border-radius:50%;
@@ -84,3 +82,56 @@ header{
     font: 14px Montserrat, sans-serif;
     color: #4b4b4b;
 }
+
+
+#content{
+    margin: 30px 40px;
+    height: 200px;
+}
+
+.item{
+    clear: both;
+    width: 100%;
+}
+
+.left-item{
+    float: left;
+    width: 30%;
+}
+
+.right-item{
+    overflow: hidden;
+    width: 70%;
+}
+
+.left-item h4.title{
+    font: 28px "Roboto Slab", Arial;
+    color: #CF8A05;
+    font-style: italic;
+}
+
+.right-item h4.title{
+    font: 20px "Roboto Slab", Arial;
+    color: #222;
+}
+
+.right-item span.date{
+    font: 16px Montserrat, Arial;
+    color: #717171;
+}
+
+p.descr {
+    margin-top: 5px;
+    font: 16px Arial;
+    color: #3c3c3c;
+}
+
+h4.academy{
+    margin-top: 20px;
+}
+
+#education {
+    height: 220px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
