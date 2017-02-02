@@ -85,7 +85,7 @@ header{
 
 
 #content{
-    margin: 30px 40px;
+    margin: 30px 40px 0;
 }
 
 .item{
@@ -144,5 +144,70 @@ h4.experience{
 #skills .right-item table td p{
     font: 16px/24px Montserrat, Arial;
     color: #222;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #5d5d5d;
+}
+
+footer p{
+    font: 14px Arial;
+    color: #979797;
+}
+
+.footer-contact{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+.social{
+    padding-right: 80px;
+    padding-top: 25px;
+}
+
+.social a{
+    margin-right: 5px;
+    display: inline-block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+
+.social a.vk{
+    background: #3c3c3c url(../images/sprite-icon.png) no-repeat;
+    background-position: 0 0;
+}
+
+.social a.fb{
+    background: #3c3c3c url(../images/sprite-icon.png) no-repeat;
+    background-position: -52px -1px;
+}
+
+.social a.gm{
+    background: #3c3c3c url(../images/sprite-icon.png) no-repeat;
+    background-position: -100px -2px;
+}
+
+.social a.vk:hover{
+    background-color: #00006e;
+}
+
+.social a.fb:hover{
+    background-color: #000042;
+}
+
+.social a.gm:hover{
+    background-color: #af0006;
 }
 
